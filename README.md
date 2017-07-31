@@ -3,4 +3,4 @@ sdk-aos
 
 LiqPay Android SDK
 
-Documentation https://www.liqpay.com/ru/doc/aos
+Documentation https://www.liqpay.ua/documentation/en
