@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ua.privatbank",
+    "module": "liqpay_x",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liqpay_x-1.0.aar",
+          "url": "liqpay_x-1.0.aar",
+          "size": 586358,
+          "sha512": "f00012ec48198e31708353cd0422bcf9b941f826a720d24197d33eacb4e71e6318d7a21bbb40713cca0a79e03102e351fffbb4265e61c5558bf4da8a75ba6813",
+          "sha256": "3cef4b2ef93fedd2d34aa57908b99d101c9a4f5e1a5994a1cdef22cbdfabbf5d",
+          "sha1": "d73edc588be5440093b5a3d5415c402a074cd1fd",
+          "md5": "ddcbaa8e7635515b6a4473b996f084e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "adapterlibrary",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "confirmcore",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "confirmservice",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "core",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "dynamic-components",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "pbthemes",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "permission-controller",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "ua.privatbank",
+          "module": "rxfingerprint",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.5.6"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "liqpay_x-1.0.aar",
+          "url": "liqpay_x-1.0.aar",
+          "size": 586358,
+          "sha512": "f00012ec48198e31708353cd0422bcf9b941f826a720d24197d33eacb4e71e6318d7a21bbb40713cca0a79e03102e351fffbb4265e61c5558bf4da8a75ba6813",
+          "sha256": "3cef4b2ef93fedd2d34aa57908b99d101c9a4f5e1a5994a1cdef22cbdfabbf5d",
+          "sha1": "d73edc588be5440093b5a3d5415c402a074cd1fd",
+          "md5": "ddcbaa8e7635515b6a4473b996f084e8"
+        }
+      ]
+    }
+  ]
+}
