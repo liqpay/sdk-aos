@@ -9,7 +9,7 @@ Please look at our Liqpay documentation - you can find there how to use Gpay and
 
 https://www.liqpay.ua/documentation
 
-Please, read [https://www.liqpay.ua/en/faq](https://www.liqpay.ua/en/information/handbook) before you start use Liqpay as acquire
+Please, read https://www.liqpay.ua/en/information/handbook before you start use Liqpay as acquire
 
 Also if you need card method or other - you can use web-view checkout page in your App
 
