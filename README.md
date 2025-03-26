@@ -7,13 +7,13 @@ Documentation https://www.liqpay.ua/documentation/en
 
 Please look at our Liqpay documentation - you can find there how to use Gpay and Privatpay method
 
-https://www.liqpay.ua/documentation
+https://www.liqpay.ua/doc
 
-Please, read https://www.liqpay.ua/en/faq before you start use Liqpay as acquire
+Please, read https://www.liqpay.ua/en/information/handbook before you start use Liqpay as acquire
 
 Also if you need card method or other - you can use web-view checkout page in your App
 
-Also we have some SDK for Android working with Masterpass, if you're interested - please send email to technical.support@liqpay.ua
+Also we have some SDK for Android working with Masterpass, if you're interested - please send email to liqpay.support@privatbank.ua
 
 Adding dependency
 =======
