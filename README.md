@@ -7,7 +7,7 @@ Documentation https://www.liqpay.ua/documentation/en
 
 Please look at our Liqpay documentation - you can find there how to use Gpay and Privatpay method
 
-https://www.liqpay.ua/documentation
+https://www.liqpay.ua/doc
 
 Please, read https://www.liqpay.ua/en/information/handbook before you start use Liqpay as acquire
 
