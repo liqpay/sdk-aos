@@ -3,8 +3,6 @@ sdk-aos
 
 LiqPay Android SDK
 
-Documentation https://www.liqpay.ua/documentation/en
-
 Please look at our Liqpay documentation - you can find there how to use Gpay and Privatpay method
 
 https://www.liqpay.ua/doc
