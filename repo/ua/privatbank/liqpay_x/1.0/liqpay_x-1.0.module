@@ -35,11 +35,11 @@
         {
           "name": "liqpay_x-1.0.aar",
           "url": "liqpay_x-1.0.aar",
-          "size": 586358,
-          "sha512": "f00012ec48198e31708353cd0422bcf9b941f826a720d24197d33eacb4e71e6318d7a21bbb40713cca0a79e03102e351fffbb4265e61c5558bf4da8a75ba6813",
-          "sha256": "3cef4b2ef93fedd2d34aa57908b99d101c9a4f5e1a5994a1cdef22cbdfabbf5d",
-          "sha1": "d73edc588be5440093b5a3d5415c402a074cd1fd",
-          "md5": "ddcbaa8e7635515b6a4473b996f084e8"
+          "size": 586350,
+          "sha512": "9fc38434f0931220ca3b9b41360a1f3e29da6deaef939259625f21cbf79a5a2856603e1681ec901b7f5526e99d24c0545ec4ed051ee98f1a164c2d7cf249343b",
+          "sha256": "d48068ba9ddf66a0934ad2a360dcf3476397b9631cbc80c218bbd83b831c2915",
+          "sha1": "a9a030eb64e4b68d8427e3d7f1d99e7660bf2cd1",
+          "md5": "5b0e9efe88f6d033c4ed31ca307ac85f"
         }
       ]
     },
@@ -190,11 +190,11 @@
         {
           "name": "liqpay_x-1.0.aar",
           "url": "liqpay_x-1.0.aar",
-          "size": 586358,
-          "sha512": "f00012ec48198e31708353cd0422bcf9b941f826a720d24197d33eacb4e71e6318d7a21bbb40713cca0a79e03102e351fffbb4265e61c5558bf4da8a75ba6813",
-          "sha256": "3cef4b2ef93fedd2d34aa57908b99d101c9a4f5e1a5994a1cdef22cbdfabbf5d",
-          "sha1": "d73edc588be5440093b5a3d5415c402a074cd1fd",
-          "md5": "ddcbaa8e7635515b6a4473b996f084e8"
+          "size": 586350,
+          "sha512": "9fc38434f0931220ca3b9b41360a1f3e29da6deaef939259625f21cbf79a5a2856603e1681ec901b7f5526e99d24c0545ec4ed051ee98f1a164c2d7cf249343b",
+          "sha256": "d48068ba9ddf66a0934ad2a360dcf3476397b9631cbc80c218bbd83b831c2915",
+          "sha1": "a9a030eb64e4b68d8427e3d7f1d99e7660bf2cd1",
+          "md5": "5b0e9efe88f6d033c4ed31ca307ac85f"
         }
       ]
     }
