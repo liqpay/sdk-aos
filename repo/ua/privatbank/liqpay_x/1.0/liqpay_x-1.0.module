@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.5"
+      "version": "8.7"
     }
   },
   "variants": [
@@ -35,11 +35,11 @@
         {
           "name": "liqpay_x-1.0.aar",
           "url": "liqpay_x-1.0.aar",
-          "size": 586350,
-          "sha512": "9fc38434f0931220ca3b9b41360a1f3e29da6deaef939259625f21cbf79a5a2856603e1681ec901b7f5526e99d24c0545ec4ed051ee98f1a164c2d7cf249343b",
-          "sha256": "d48068ba9ddf66a0934ad2a360dcf3476397b9631cbc80c218bbd83b831c2915",
-          "sha1": "a9a030eb64e4b68d8427e3d7f1d99e7660bf2cd1",
-          "md5": "5b0e9efe88f6d033c4ed31ca307ac85f"
+          "size": 588556,
+          "sha512": "d02660c7840abfed289473929b6b52b52b0aac75bc25c44282f194071088a42863d442c123716b9cc1435e05f79501080c20942daa70702f1e18b2614dc472a4",
+          "sha256": "88ac835cf1c8cc26080aae1e8179210f6c93cab451989b34b77ec5ce9c7e328f",
+          "sha1": "9f6769946e158af32418630c69b7c7863d9c89d8",
+          "md5": "5d89c56dab24b678ef40c8b194532578"
         }
       ]
     },
@@ -190,11 +190,11 @@
         {
           "name": "liqpay_x-1.0.aar",
           "url": "liqpay_x-1.0.aar",
-          "size": 586350,
-          "sha512": "9fc38434f0931220ca3b9b41360a1f3e29da6deaef939259625f21cbf79a5a2856603e1681ec901b7f5526e99d24c0545ec4ed051ee98f1a164c2d7cf249343b",
-          "sha256": "d48068ba9ddf66a0934ad2a360dcf3476397b9631cbc80c218bbd83b831c2915",
-          "sha1": "a9a030eb64e4b68d8427e3d7f1d99e7660bf2cd1",
-          "md5": "5b0e9efe88f6d033c4ed31ca307ac85f"
+          "size": 588556,
+          "sha512": "d02660c7840abfed289473929b6b52b52b0aac75bc25c44282f194071088a42863d442c123716b9cc1435e05f79501080c20942daa70702f1e18b2614dc472a4",
+          "sha256": "88ac835cf1c8cc26080aae1e8179210f6c93cab451989b34b77ec5ce9c7e328f",
+          "sha1": "9f6769946e158af32418630c69b7c7863d9c89d8",
+          "md5": "5d89c56dab24b678ef40c8b194532578"
         }
       ]
     }
