@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/p24_margin_normal"
+            tools:context=".GooglePayTokenExampleActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Step 1: Initialization with Data and Signature\nAlso this step retrieves merchant id which is necessary for Google Pay token retrieval" />
+
+            <Button
+                android:id="@+id/bInit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p24_margin_xSmall"
+                android:text="Init" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p24_margin_normal"
+                android:text="Step 2: Merchant has to manually obtain Google Pay Token with help of Google Wallet Sdk " />
+
+            <EditText
+                android:text="eyJzaWduYXR1cmUiOiJNRVVDSVFDMmtZZXVMd3Q1TlQ0dU5yY0NCSzI5elhQNFFERU4zR0xKR01nY1UrUSs3UUlnWDcwMmFSaG5wN0RsYkRJV1pUYkliZ0JIbkREWmM0UWVpN2oyUVgyY3V4OFx1MDAzZCIsImludGVybWVkaWF0ZVNpZ25pbmdLZXkiOnsic2lnbmVkS2V5Ijoie1wia2V5VmFsdWVcIjpcIk1Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRTFDdk5EbFJPVUhxOW1yaVB1RGNnTytObmJEN0ZZZ2N4dXB5SmxYVTZaZE0vT2NYTXRiU0RvWFB0Ynl5Ti9YeS9GWmx3MThoU3JZb1FtQmRaM21CU253XFx1MDAzZFxcdTAwM2RcIixcImtleUV4cGlyYXRpb25cIjpcIjE2ODQ4MjQ0OTAwMDBcIn0iLCJzaWduYXR1cmVzIjpbIk1FUUNJRnFBd09Ya3JmNGJlOFg5L1FIUFRqQ1E1a1MrR2RMSEw1WHpDYXRENzQvekFpQk15dlBFdHFVVG1rOWdPU21zRjFzZXlILzZXL3k4blc0ZHNoS2NjU29SMXdcdTAwM2RcdTAwM2QiXX0sInByb3RvY29sVmVyc2lvbiI6IkVDdjIiLCJzaWduZWRNZXNzYWdlIjoie1wiZW5jcnlwdGVkTWVzc2FnZVwiOlwiNFVJTWNvdTJ3T3E0STd2SU9mSTNPZ1V3UzNJQ2MrYTRrOExXak95UXp4WldIRjBta3dpdDFlU3FEOUtyR1FBM0gxTmVRSkJQaUljRXlNMGxVODJFVXdzUGgwVmNyYy90UVVseHlxaHMwMzlwVWowZ0NVc2VqTmJnMWJwSlZhaGd4NHBEcjJ2eTNFd3JuS2szTldwUzFyK1k5T0NCaUMxR1liTEIzRVR2SnIrKzZocy9qeEZIMWQrTTBTRysyQW9WbWx1eTlrRjJOMkJ3Zm9FWFRjb1p4amQ3emFxMjBLYjRmdTdvc3p4WTR6dFM2a1lKWnJkY3QxTmkzcmJXNThvbVM1TW1rZi9tejNNdUpHR01aZmNaNy9MVjA4d2J5UkgxMGxsbFY3SVJ3WEE0NG5EckJYRTdtWFBCeVlId3lucDVKc1BuemQwUW9Dd1lUZ1FpUEZybkFDZVZkK01ta3lCYnhYc2ROakVJSW42eEM3YzBXdmFyQVBaWFRqRnRBTlB6bzFmU3FWZUw4Y2ZjSUM0akZPRCtocS9UV2h4UC9IZUlZYjlyUlhZSEkraThUQW12NGhiQS8xdjhKemM5K2p5YnVhQk1udXZTWGoxeitiK0grVWpuYWttbTBXYlJCUmJEN3V5ajJpUTMwUVxcdTAwM2RcXHUwMDNkXCIsXCJlcGhlbWVyYWxQdWJsaWNLZXlcIjpcIkJJeXhHL3VQSVFwa2QrUDBVWUZ3M1o1Y0MzcmFrb2pOWHNoUlE2L2pzWmg2RlUyQm5qQktDRHNwS241NEFad3VwVmFPbG5sQXV0RXZYV293RXVDYmR3MFxcdTAwM2RcIixcInRhZ1wiOlwiSjB5WlJ1UDNNNVA3Nllwb2pNUklPVGlISTdtTDVYNzI0NElVMlJ6YWJvWVxcdTAwM2RcIn0ifQ=="
+                android:id="@+id/etGooglePayToken"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p24_margin_xSmall"
+                android:enabled="false"
+                android:hint="Google Pay Token" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p24_margin_normal"
+                android:text="Step 3: We send Google Pay Token along with response from step 1 for payment method" />
+
+            <Button
+                android:id="@+id/bPay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p24_margin_xSmall"
+                android:enabled="false"
+                android:text="Pay with Google Pay Token" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>
+
